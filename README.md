@@ -18,5 +18,16 @@ public class MyObject{
   public List<string>? FavoriteFoods {get; set;}
 }
 ```
+### To use this for conversions, it is straightforward in code.
+```
+MyObject myObj = new MyObject();
+string json = JsonWrapper.ToJson(myObj);
+Dictionary<string,dynamic> JsonWrapper<Dictionary<string, dynmaic>(json);
+```
 
-
+### Since we need to convert to and from Dictionary<string, dymanic> directly, there are two methods for going to and from.  Using them would look like this,
+```
+MyObject myObj = new MyObject();
+Dictionary<string,dynamic> dict = JsonWrapper.ToDictionary(myObj);
+MyObject anotherObj = JsonWrapper.FromDictionary<MyObject>(dict);
+```
