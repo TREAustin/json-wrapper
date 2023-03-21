@@ -45,4 +45,4 @@ Check out my Firestore and FirebaseAuthentication extensions **REPO COMING SOON*
 
 ### Comments, Questions, or Suggestions? ###
 
-Please feel free to reach out to me at tausti0065@gmail.com. ###
+Please feel free to reach out to me at tausti0065@gmail.com.
