@@ -38,5 +38,11 @@ MyObject myObj = new MyObject();
 Dictionary<string,dynamic> dict = JsonWrapper.ToDictionary(myObj);
 MyObject anotherObj = JsonWrapper.FromDictionary<MyObject>(dict);
 ```
-### If you are using Firestore and C# together, check out my Firestore and FirebaseAuthentication extensions **REPO COMING SOON**. ###
-### If you have any comments, questions, or suggestions, please feel free to reach out to me at tausti0065@gmail.com. ###
+
+### Using Firestore and C# together ###
+
+Check out my Firestore and FirebaseAuthentication extensions **REPO COMING SOON**.
+
+### Comments, Questions, or Suggestions? ###
+
+Please feel free to reach out to me at tausti0065@gmail.com. ###
