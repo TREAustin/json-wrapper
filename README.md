@@ -2,7 +2,7 @@
 
 ### Converting Complex Objects ### 
 
-The library has been made to handle conversion of complex objects to and from JSON strings.  The speficic use case for this library was to convert complex objects to and from Dictionary<string, dynamic> objects for Firestore.  Currently, the Firestore conversion methods in the documentation require a lot of setup and general knowledge to create custom objects.  With this library, all that was needed are attribute tags already available in the System.Text.Json.Serialization namespace.
+This class has been made to handle conversion of complex objects to and from JSON strings.  The speficic use case for this library was to convert complex objects to and from Dictionary<string, dynamic> objects for Firestore.  Currently, the Firestore conversion methods in the documentation require a lot of setup and general knowledge to create custom objects.  With this library, all that was needed are attribute tags already available in the System.Text.Json.Serialization namespace.
 
 ### Setup and Usage ###
 
