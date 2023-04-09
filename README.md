@@ -4,7 +4,21 @@
 
 This class has been made to handle conversion of complex objects to and from JSON strings.  The speficic use case for this library was to convert complex objects to and from Dictionary<string, dynamic> objects for Firestore.  Currently, the Firestore conversion methods in the documentation require a lot of setup and general knowledge to create custom objects.  With this library, all that was needed are attribute tags already available in the System.Text.Json.Serialization namespace.
 
-### Setup and Usage ###
+
+### Setup ###
+
+This project has been designed to be dropped into any project .Net project.  The only change needed is to update the namespace at the top.
+
+```
+using System.Text.Json;
+using System.Text.Json.Serialization;
+
+//Replace your namespace here, and this file can be copied into any project.
+namespace JsonWrapper;
+```
+
+### Usage ###
+
 
 To use this library, a custom object must have the System.Text.Json.Serialization namespace used and the [JsonPropertyName()] attribute tag assigned to the members.  The example below shows how to setup the object.
 ```
